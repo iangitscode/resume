@@ -13,6 +13,10 @@
   font-size: 12px;
 }
 
+.title-with-line {
+  border-bottom: 2px solid var(--highlights-color);
+}
+
 .font-primary{font-family: Roboto !important}.font-secondary{font-family: Roboto !important}.bg-primary{background-color: var(--highlights-color);}.grayscale .bg-primary{background-color: #848484;}.bg-secondary{background-color: #000000;}.grayscale .bg-secondary{background-color: #000000;}.bg-primary-light{background-color: var(--sidebar-color);}.grayscale .bg-primary-light{background-color: #e9e9e9;}.bg-primary-dark{background-color: #26447f;}.grayscale .bg-primary-dark{background-color: #414141;}.bg-secondary-light{background-color: #e4e4e4;}.grayscale .bg-secondary-light{background-color: #e4e4e4;}.bg-secondary-dark{background-color: #000000;}.grayscale .bg-secondary-dark{background-color: #000000;}.fg-primary{color: var(--highlights-color);}.grayscale .fg-primary{color: #848484;}.fg-primary .contact-icon-link{color: var(--highlights-color);}.grayscale .fg-primary .contact-icon-link{color: #848484;}.fg-secondary{color: #000000;}.grayscale .fg-secondary{color: #000000;}.fg-secondary .contact-icon-link{color: #000000;}.grayscale .fg-secondary .contact-icon-link{color: #000000;}.fg-primary-light{color: var(--sidebar-color);}.grayscale .fg-primary-light{color: #e9e9e9;}.fg-primary-light .contact-icon-link{color: var(--sidebar-color);}.grayscale .fg-primary-light .contact-icon-link{color: #e9e9e9;}.fg-primary-dark{color: #26447f;}.grayscale .fg-primary-dark{color: #414141;}.fg-primary-dark .contact-icon-link{color: #26447f;}.grayscale .fg-primary-dark .contact-icon-link{color: #414141;}.fg-secondary-light{color: #e4e4e4;}.grayscale .fg-secondary-light{color: #e4e4e4;}.fg-secondary-light .contact-icon-link{color: #e4e4e4;}.grayscale .fg-secondary-light .contact-icon-link{color: #e4e4e4;}.fg-secondary-dark{color: #000000;}.grayscale .fg-secondary-dark{color: #000000;}.fg-secondary-dark .contact-icon-link{color: #000000;}.grayscale .fg-secondary-dark .contact-icon-link{color: #000000;}.bd-primary{border-color: var(--highlights-color);}.grayscale .bd-primary{border-color: #848484;}.bd-secondary{border-color: #000000;}.grayscale .bd-secondary{border-color: #000000;}.bd-primary-light{border-color: var(--sidebar-color);}.grayscale .bd-primary-light{border-color: #e9e9e9;}.bd-primary-dark{border-color: #26447f;}.grayscale .bd-primary-dark{border-color: #414141;}.bd-secondary-light{border-color: #e4e4e4;}.grayscale .bd-secondary-light{border-color: #e4e4e4;}.bd-secondary-dark{border-color: #000000;}.grayscale .bd-secondary-dark{border-color: #000000;}.hv-primary .contact-icon-link.hover-enabled:hover{color: var(--highlights-color);}.grayscale .hv-primary .contact-icon-link.hover-enabled:hover{color: #848484;}.hv-secondary .contact-icon-link.hover-enabled:hover{color: #000000;}.grayscale .hv-secondary .contact-icon-link.hover-enabled:hover{color: #000000;}.hv-primary-light .contact-icon-link.hover-enabled:hover{color: var(--sidebar-color);}.grayscale .hv-primary-light .contact-icon-link.hover-enabled:hover{color: #e9e9e9;}.hv-primary-dark .contact-icon-link.hover-enabled:hover{color: #26447f;}.grayscale .hv-primary-dark .contact-icon-link.hover-enabled:hover{color: #414141;}.hv-secondary-light .contact-icon-link.hover-enabled:hover{color: #e4e4e4;}.grayscale .hv-secondary-light .contact-icon-link.hover-enabled:hover{color: #e4e4e4;}.hv-secondary-dark .contact-icon-link.hover-enabled:hover{color: #000000;}.grayscale .hv-secondary-dark .contact-icon-link.hover-enabled:hover{color: #000000;}.document-container:hover [markdown-viewer] a, .document-container:hover .link a{color: #000}.document-container:hover [markdown-viewer] a, .document-container:hover .link a{text-decoration: underline}.document-container:hover [markdown-viewer] a:hover, .document-container:hover .link a:hover{color: #26447f}.document-container:hover .grayscale [markdown-viewer] a, .document-container:hover .grayscale .link a{color: #585858}.document-container:hover .grayscale [markdown-viewer] a:hover, .document-container:hover .grayscale .link a:hover{color: #414141}.fg-white{color: #fff}.fg-white .contact-icon-link{color: #fff}</style><!--<base target="_parent">--><base href="." target="_parent"><title>Creddle | Resume</title><link rel="icon" href="https://resume.creddle.io/favicon.ico" type="image/x-icon"></head><body class=""><nav class="navbar navbar-default navbar-fixed-top main-navbar">  <div class="navbar-center">   <a href="http://creddle.io/" class="home-link">creddle</a> </div></nav><div style="margin-top:100px;margin-bottom:100px"><div class="container document-container pages" style="height: 1100px !important" data-font-primary="Roboto" id="e-0-c">
 
   <button class="btn btn-clear btn-quick-customize right" ng-click="toggleMode(&#39;quickCustomize&#39;)" id="e-1-c" style="display: none;">
@@ -603,7 +607,7 @@
 
 <!-- START SINGLE EMPLOYMENT BLOCK -->
 <div class="item-container row header-padding" crc-link="employment" crc-link-tab="section" id="e-366-c" style="margin-top:12px;">
-  <div class="col-md-12" id="e-367-c">
+  <div class="col-md-12" id="e-367-c" style="padding-left: 0">  <!--temporary fix -->
     <div ng-init="employerIndex = $index" class="" id="e-368-c">
       <div class="" id="e-369-c">
         <div ng-init="employmentIndex = $index" ng-include="src.item" class="" id="e-370-c"><!-- ngIf: employerIndex < 15 --><div class="content-group" id="e-371-c" style="margin-bottom: 16px; margin-top: 1.25px;">
@@ -612,7 +616,7 @@
     <div id="e-373-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-375-c">
   <tbody id="e-376-c">
-    <tr flex-width-parent="employment-0" id="e-377-c">
+    <tr flex-width-parent="employment-0" id="e-377-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-378-c">
         <span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-379-c"><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
             employmentIndex &gt; 0)" id="e-380-c"><span ng-switch-when="false" class="" id="e-381-c"><span flex-height="4" flex-width="employment-0" class="font-primary inline-block item-name bold" id="e-383-c" base-font-size="6" style="font-size: var(--main-font-size);" lines="1">Amazon</span></span></span></span><span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-384-c"><span flex-height="4" flex-width="employment-0" class="separator" ng-bind-html="bind.separator() | trusted" id="e-385-c" base-font-size="6" style="font-size: var(--main-font-size);" lines="1">,&nbsp;</span><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
@@ -621,7 +625,7 @@
         <span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-391-c"><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
             employmentIndex &gt; 0)" id="e-392-c"><span ng-switch-when="false" class="" id="e-393-c"><div class="inline-block item-date" id="e-395-c">
   <span class="date font-primary cr-date" flex-height="4" flex-width="employment-0" id="e-396-c" base-font-size="6" style="font-size: var(--main-font-size);">
-    <span class="" id="e-397-c" lines="1"><span class="" id="e-398-c" lines="1">May</span><span class="" id="e-399-c" lines="1"> </span><span class="" id="e-400-c" lines="1">2019</span></span><span class="" id="e-401-c" lines="1"> to </span><span class="" id="e-402-c" lines="1"><span class="" id="e-403-c" lines="1">Present</span></span>
+    <span class="" id="e-397-c" lines="1"><span class="" id="e-398-c" lines="1">May</span><span class="" id="e-399-c" lines="1"> </span><span class="" id="e-400-c" lines="1">2019</span></span><span class="" id="e-401-c" lines="1"> to </span><span class="" id="e-402-c" lines="1"><span class="" id="e-403-c" lines="1">August 2019</span></span>
 </div></span></span></span>
       </td>
     </tr>
@@ -641,8 +645,17 @@
   </tbody>
 </table>
       <div markdown-viewer="" flex-height="4" class="font-secondary content-paragraph description ng-isolate-scope ng-valid" ng-model="employment.description" id="e-417-c" base-font-size="6" style="font-size: var(--main-font-size);">
-        <p><span class='bullet'> &#x273B; </span> Currently developing with Java on the Payment Products team</p>
-       </div>
+        <p><span class='bullet'> &#x273B; </span> Worked with Java on the Payment Products team</p>
+      </div>
+      <div markdown-viewer="" flex-height="4" class="font-secondary content-paragraph description ng-isolate-scope ng-valid" ng-model="employment.description" id="e-417-c" base-font-size="6" style="font-size: var(--main-font-size);">
+        <p><span class='bullet'> &#x273B; </span> Created a templating tool to replace legacy architecture by using AWS to host workflow orchestration services </p>
+      </div>
+      <div markdown-viewer="" flex-height="4" class="font-secondary content-paragraph description ng-isolate-scope ng-valid" ng-model="employment.description" id="e-417-c" base-font-size="6" style="font-size: var(--main-font-size);">
+        <p><span class='bullet'> &#x273B; </span> Shortened initial infrastructure creation time from weeks to hours </p>
+      </div>
+      <div markdown-viewer="" flex-height="4" class="font-secondary content-paragraph description ng-isolate-scope ng-valid" ng-model="employment.description" id="e-417-c" base-font-size="6" style="font-size: var(--main-font-size);">
+        <p><span class='bullet'> &#x273B; </span> Projected yearly infrastructure cost savings of over 90% </p>
+      </div>
     </div>
   </div>
 </div>
@@ -660,7 +673,7 @@
     <div id="e-373-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-375-c">
   <tbody id="e-376-c">
-    <tr flex-width-parent="employment-0" id="e-377-c">
+    <tr flex-width-parent="employment-0" id="e-377-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-378-c">
         <span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-379-c"><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
             employmentIndex &gt; 0)" id="e-380-c"><span ng-switch-when="false" class="" id="e-381-c"><span flex-height="4" flex-width="employment-0" class="font-primary inline-block item-name bold" id="e-383-c" base-font-size="6" style="font-size: var(--main-font-size);" lines="1">Visier</span></span></span></span><span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-384-c"><span flex-height="4" flex-width="employment-0" class="separator" ng-bind-html="bind.separator() | trusted" id="e-385-c" base-font-size="6" style="font-size: var(--main-font-size);" lines="1">,&nbsp;</span><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
@@ -706,7 +719,7 @@
     <div id="e-427-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-429-c">
   <tbody id="e-430-c">
-    <tr flex-width-parent="employment-0" id="e-431-c">
+    <tr flex-width-parent="employment-0" id="e-431-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-432-c">
         <span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-433-c"><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
             employmentIndex &gt; 0)" id="e-434-c"><span ng-switch-when="false" class="" id="e-435-c"><span flex-height="4" flex-width="employment-0" class="font-primary inline-block item-name bold" id="e-437-c" base-font-size="6" style="font-size: var(--main-font-size);" lines="1">Humber Institute of Technology</span></span></span></span><span ng-init="elIndex = $index" flex-width-ignore="" class="" id="e-438-c"><span flex-height="4" flex-width="employment-0" class="separator" ng-bind-html="bind.separator() | trusted" id="e-439-c" base-font-size="6" style="font-size: var(--main-font-size);" lines="1">,&nbsp;</span><span ng-switch="(modifiers.configuration == &#39;two_column&#39; &amp;&amp;
@@ -798,7 +811,7 @@
       <div id="e-625-c">
         <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-626-c">
     <tbody id="e-627-c">
-      <tr flex-width-parent="projects-0" id="e-628-c">
+      <tr flex-width-parent="projects-0" id="e-628-c" class="title-with-line">
         <td ng-init="colIndex = $index" class="crd-col" id="e-629-c">
           <span flex-width-ignore="" class="" id="e-630-c"><span class="content-title" id="e-632-c">
     <span flex-height="4" class="font-primary bold" id="e-633-c" base-font-size="6" lines="1" style="font-size: var(--main-font-size);">UWaterloo People Counter</span>
@@ -827,7 +840,7 @@
     <div id="e-551-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-552-c">
   <tbody id="e-553-c">
-    <tr flex-width-parent="projects-0" id="e-554-c">
+    <tr flex-width-parent="projects-0" id="e-554-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-555-c">
         <span flex-width-ignore="" class="" id="e-556-c"><span class="content-title" id="e-558-c">
   <span flex-height="4" class="font-primary bold" id="e-559-c" base-font-size="6" lines="1" style="font-size: var(--main-font-size);">
@@ -844,9 +857,8 @@
   </tbody>
 </table>
       <div markdown-viewer="" flex-height="4" class="font-secondary content-paragraph description ng-isolate-scope ng-valid" ng-model="::item.description" id="e-566-c" base-font-size="6" style="font-size: var(--main-font-size);">
-        <p id="e-567-c"><span class='bullet'> &#x273B; </span> An online, mobile friendly Cards Against Humanity clone created with Angular and NodeJS</p>
+        <p id="e-567-c"><span class='bullet'> &#x273B; </span> An online, mobile friendly Cards Against Humanity clone created with Angular and NodeJS, hosted on <a href="https://notcardsagainsthumanity.herokuapp.com/" target="_blank"> Heroku </a></p>
         <p id="e-568-c"><span class='bullet'> &#x273B; </span> Supported multiple concurrent games through joinable room codes </p>
-        <p> <span class='bullet'> &#x273B; </span> Hosted on <a href="https://notcardsagainsthumanity.herokuapp.com/" target="_blank"> Heroku </a> </p>
         </div>
     </div>
   </div>
@@ -861,7 +873,7 @@
     <div id="e-551-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-552-c">
   <tbody id="e-553-c">
-    <tr flex-width-parent="projects-0" id="e-554-c">
+    <tr flex-width-parent="projects-0" id="e-554-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-555-c">
         <span flex-width-ignore="" class="" id="e-556-c"><span class="content-title" id="e-558-c">
   <span flex-height="4" class="font-primary bold" id="e-559-c" base-font-size="6" lines="1" style="font-size: var(--main-font-size);">OS/161 Kernel</span>
@@ -892,7 +904,7 @@
     <div id="e-575-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-576-c">
   <tbody id="e-577-c">
-    <tr flex-width-parent="projects-0" id="e-578-c">
+    <tr flex-width-parent="projects-0" id="e-578-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-579-c">
         <span flex-width-ignore="" class="" id="e-580-c"><span class="content-title" id="e-582-c">
   
@@ -918,38 +930,6 @@
   </div>
 </div>
       </div>
-    </div><div class="" id="e-595-c">
-      <div class="" id="e-596-c">
-        <div class="content-group" id="e-598-c" style="margin-bottom: 16px; margin-top: 1.25px;">
-  <div id="e-599-c">
-    
-    <div id="e-600-c">
-      <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-601-c">
-  <tbody id="e-602-c">
-    <tr flex-width-parent="projects-0" id="e-603-c">
-      <td ng-init="colIndex = $index" class="crd-col" id="e-604-c">
-        <span flex-width-ignore="" class="" id="e-605-c"><span class="content-title" id="e-607-c">
-  
-  <span flex-height="4" class="font-primary link bold" id="e-608-c" base-font-size="6" style="font-size: var(--main-font-size);">
-    <a href="http://jonahdlin.com/graph" target="blank" class="" id="e-609-c">GraphHax</a>
-  </span>
-</span></span>
-      </td><td ng-init="colIndex = $index" class="crd-col align-right right-col" id="e-610-c">
-        <span flex-width-ignore="" class="" id="e-611-c"><div class="inline-block item-date" id="e-613-c">
-  <span class="date font-primary cr-date" flex-height="4" flex-width="projects-0" id="e-614-c" base-font-size="6" style="font-size: var(--main-font-size);">
-    <span class="" id="e-615-c" lines="1">2017</span></span>
-</div></span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-      <div markdown-viewer="" flex-height="4" class="font-secondary content-paragraph description ng-isolate-scope ng-valid" ng-model="::item.description" id="e-616-c" base-font-size="6" style="font-size: var(--main-font-size);">
-        <p id="e-617-c"><span class='bullet'> &#x273B; </span> An in browser graph visualization tool, accessible through a toolbox interface</p>
-        <p id="e-619-c"><span class='bullet'> &#x273B; </span> Built using Javascript, Canvas, and JQuery</p></div>
-    </div>
-  </div>
-</div>
-      </div>
     </div><div class="" id="e-645-c">
       <div class="" id="e-646-c">
         <div class="content-group" id="e-648-c" style="margin-bottom: 0px; margin-top: 1.25px;">
@@ -958,7 +938,7 @@
     <div id="e-650-c">
       <table class="cr-ordering-table crd-row" ng-init="rowIndex = $index" id="e-651-c">
   <tbody id="e-652-c">
-    <tr flex-width-parent="projects-0" id="e-653-c">
+    <tr flex-width-parent="projects-0" id="e-653-c" class="title-with-line">
       <td ng-init="colIndex = $index" class="crd-col" id="e-654-c">
         <span flex-width-ignore="" class="" id="e-655-c"><span class="content-title" id="e-657-c">
   <span flex-height="4" class="font-primary bold" id="e-658-c" base-font-size="6" lines="1" style="font-size: var(--main-font-size);">Quadris</span>
